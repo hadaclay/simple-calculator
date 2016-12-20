@@ -1,0 +1,131 @@
+body {
+  background-color: #ECF0F1;
+}
+
+.col-center {
+  float: none;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.calc-body {
+  width: 378px;
+  margin-top: 3em;
+  padding-bottom: 4px;
+  border: 15px solid;
+  border-radius: 30px;
+  border-color: #2C3E50;
+  background-color: #ECF0F1;
+}
+
+.calc-display {
+  width: 328px;
+  margin: 10px;
+  padding-top: 8px;
+  border: 3px solid;
+  border-color: #266E9E;
+  border-radius: 5px;
+  background-color: #2980B9;
+}
+
+.calc-display p {
+  font-family: 'VT323', monospace;
+  font-size: 3em;
+  color: #ECF0F1;
+  text-align: right;
+  margin-right: 10px;
+}
+
+.calc-button-row {
+  margin-left: 10px;
+}
+
+button:focus {
+  outline: 0;
+}
+
+.calc-button {
+  color: #DAEDE2;
+  background-color: #2C3E50;
+  font-size: 2.6em;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  border: none;
+  border-radius: 10px;
+  margin-right: .36em;
+  margin-bottom: .3em;
+  height: 1.9em;
+  width: 1.9em;
+
+  -webkit-transition: all 0.1s;
+  -moz-transition: all 0.1s;
+  transition: all 0.1s;
+
+  -webkit-box-shadow: 0 5px 0 #18222B;
+  -moz-box-shadow: 0 5px 0 #18222B;
+  box-shadow: 0 5px 0 #18222B;
+}
+
+.calc-button:active{
+  -webkit-box-shadow: 0 5px 0 #18222B;
+  -moz-box-shadow: 0 5px 0 #18222B;
+  box-shadow: 0 2px 0 #18222B;
+  position: relative;
+  top: 7px;
+}
+
+.number-button {
+  background-color: #3498DB;
+
+  -webkit-box-shadow: 0 5px 0 #266E9E;
+  -moz-box-shadow: 0 5px 0 #266E9E;
+  box-shadow: 0 5px 0 #266E9E;
+}
+
+.number-button:active {
+  -webkit-box-shadow: 0 5px 0 #266E9E;
+  -moz-box-shadow: 0 5px 0 #266E9E;
+  box-shadow: 0 2px 0 #266E9E;
+  position: relative;
+  top: 7px;
+}
+
+.clear-button {
+  background-color: #E74C3C;
+  -webkit-box-shadow: 0 5px 0 #8F2F25;
+  -moz-box-shadow: 0 5px 0 #8F2F25;
+  box-shadow: 0 5px 0 #8F2F25;
+}
+
+.clear-button:active {
+  -webkit-box-shadow: 0 5px 0 #8F2F25;
+  -moz-box-shadow: 0 5px 0 #8F2F25;
+  box-shadow: 0 2px 0 #8F2F25;
+  position: relative;
+  top: 7px;
+}
+
+.equals-button {
+  background-color: #2C3E50;
+  width: 4.25em;
+  box-shadow: 0 5px 0 #18222B;
+}
+
+.equals-button:active {
+  -webkit-box-shadow: 0 5px 0 #18222B;
+  -moz-box-shadow: 0 5px 0 #18222B;
+  box-shadow: 0 2px 0 #18222B;
+  position: relative;
+  top: 7px;
+}
+
+.footer a {
+  color: #E74C3C;
+}
+.footer p {
+  font-family: 'Open Sans', sans-serif;
+  color: #18222B;
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 5em;
+}
